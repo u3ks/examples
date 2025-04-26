@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "NotesESAbold";
+  src: url("https://www.esa.int/extension/pillars/design/pillars/stylesheets/fonts/NotesESAbold.woff") format("truetype");
+}
+
+html {
+  font-family: Arial, Helvetica;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a span {
+  font-family: "NotesESAbold", sans-serif;
+}
+
+/* ESA blue */
+
+.text-blue-600,
+.text-blue-800,
+.hover\:text-blue-600:hover {
+  color: #003247;
+}
+
+.border-blue-500,
+.border-l-blue-500,
+.hover\:border-blue-600:hover {
+  border-color: #003247
+}
+
+.bg-blue-300\/30 {
+  background: #00b19d;
+  outline: none;
+  font-weight: bold;
+}
+
+.bg-blue-300\/30,
+.bg-blue-300\/30 .text-blue-800 {
+  color: white;
+}
+
+.bg-blue-50 {
+  background: #00324722;
+}
+
+/* ESA green */
+
+.text-green-600 {
+  color: #00b19d;
+}
+.border-green-600 {
+  border-color: #00b19d;
+}
+.outline-blue-200 {
+  outline-color: #00b19d;
+}
+
+.bg-green-50 {
+  background: #00b19d22;
+}

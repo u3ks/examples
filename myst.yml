@@ -50,6 +50,7 @@ site:
     favicon: ./public/img/EarthCODE_Favicon_32x32px.png
     logo_text: EarthCODE Examples
     logo: ./public/img/EarthCODE_kv_transparent.png
+    style: ./public/esa-style.css
     
 
   # domains:
