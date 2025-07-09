@@ -21,6 +21,7 @@ project:
         - file: OSC/git_clerk_example.md
         - file: OSC/deepcode_example.md
         - file: OSC/stactools_old_example.md
+        - file: OSC/PRR_STAC_introduction.ipynb
   # plugins:
   #   - directives.mjs
   #   - picsum.mjs
