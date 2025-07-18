@@ -7,9 +7,11 @@ date: 2025-02-24
 #    affiliations:
 #      - TBD
 ---
-👋 Welcome to the EarthCODE examples book!
+
+Welcome to the EarthCODE examples book!
 
 Here you will find guides and examples on how to use the various EarthCODE resources.
 
-If you are looking to upload data to the Open Science Catalog, check out our [Open Science Catalog Examples](OSC/index.md).
+If you are looking to upload data to the ESA Project Results (PRR) repository, check out our [PRR Examples](PRR/index.md).
 
+If you are looking to add information to the Open Science Catalog, check out our [Open Science Catalog Examples](OSC/index.md).
