@@ -10,7 +10,7 @@ In order to upload data to the ESA Project Results Repository (PRR) you have to 
 2. Group your dataset files into STAC Items and STAC Assets
 3. Add the Items to the Collection
 4. Save the normalised Collection
-5. Send the data, metadata and some extra information to the Earth-Code team.
+5. Send the data, metadata and some extra information to the EarthCODE team.
 
 Below you will find guides to the whole process, we recomend starting with the introductory notebook.
 
