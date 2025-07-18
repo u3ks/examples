@@ -9,10 +9,10 @@ There are three ways to add information to the OSC:
 
 - [Git Clerk](./git_clerk_example.md) - A guide for using the Git Clerk tool which is a user interface for automatically creating product entries and creating a Pull Request in the OSC GitHub Repo.
 
-### 2: Manually editing files
-- [Directly editing the files](./osc_pr_manual.ipynb) - A guide for manually creating Product entries. Requires knowledge of git.
+### 2: Manually opening a PR
+- [Directly editing the json files](./osc_pr_manual.ipynb) - A guide for manually creating Product entries. Requires knowledge of git.
 
-- [PySTAC notebook](./osc_pr_pystac.ipynb) - A guide for creating Product entries using pystac. Requires knowledge of git and Python.
+- [Generating OSC files using pystac](./osc_pr_pystac.ipynb) - A guide for creating Product entries using pystac. Requires knowledge of git and Python.
 
-### 2: Using one of the platform tools
+### 3: Using one of the platform tools
 - [DeepCode](./deepcode_example.md) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.

@@ -28,7 +28,7 @@ project:
       children:
         - file: OSC/git_clerk_example.md
         - file: OSC/osc_pr_manual.ipynb
-        - file: OSC/osc_pr_pystac.md
+        - file: OSC/osc_pr_pystac.ipynb
         - file: OSC/deepcode_example.md
 
       
