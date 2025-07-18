@@ -12,16 +12,26 @@ project:
     code: MIT
     content: CC-BY-4.0
   toc:
+
     - file: index.md
-    - title: Open Science Catalog
+
+    - title: ESA Project Results Repository (PRR)
+      file: PRR/index.md
+      children:
+        - file: PRR/PRR_STAC_introduction.ipynb
+        - file: PRR/example_tccas.ipynb
+        - file: PRR/Creating STAC Catalog_from_PRR_example.ipynb
+        - file: PRR/PRR_STAC_download_example.ipynb
+
+    - title: Open Science Catalog (OSC)
       file: OSC/index.md
       children:
-        - file: OSC/creating_an_item_catalog.ipynb
-        - file: OSC/manual_example.md
         - file: OSC/git_clerk_example.md
+        - file: OSC/osc_pr_manual.ipynb
+        - file: OSC/osc_pr_pystac.ipynb
         - file: OSC/deepcode_example.md
-        - file: OSC/stactools_old_example.md
-        - file: OSC/PRR_STAC_introduction.ipynb
+
+      
   # plugins:
   #   - directives.mjs
   #   - picsum.mjs
