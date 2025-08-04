@@ -15,4 +15,4 @@ There are three ways to add information to the OSC:
 - [Generating OSC files using pystac](./osc_pr_pystac.ipynb) - A guide for creating Product entries using pystac. Requires knowledge of git and Python.
 
 ### 3: Using one of the platform tools
-- [DeepCode](./deepcode_example.md) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.
+- [DeepCode](https://github.com/deepesdl/deep-code) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.
