@@ -10,5 +10,7 @@ The notebook examples provided in this section illustrate how to use openEO for 
 
 ## openEO Examples
 
-  1. [Creating an openEO workflow](1_workflow.ipynb): This notebook demonstrates how to create a basic openEO workflow, executing a simple processing task and publishing it as workflow that can be shared and reused.
-  2. [Creating an experiment](2_experiment.ipynb): This notebook shows how to set up an experiment using the previously created workflow, defining parameters such as area of interest and time range, and executing the workflow to generate output products.
+  1. [Creating an openEO workflow](1_workflow.ipynb): This guide demonstrates how to create a basic openEO workflow, executing a simple processing task and publishing it as workflow that can be shared and reused.
+  2. [Creating an experiment](2_experiment.ipynb): This guide shows how to set up an experiment using the previously created workflow, defining parameters such as area of interest and time range, and executing the workflow to generate output products.
+  3. [Publishing an experiment to EarthCODE](3_publication.md): This guide explains how to publish the created experiment to the EarthCODE Open Science Catalogue (OSC) using the openEO Publishing tool, making it discoverable and reusable by the scientific community.
+  4. [Reproducing an experiment](4_reproduce.ipynb): This guide illustrates how to reproduce the published experiment using openEO, verifying the output products against the original experiment to ensure consistency and correctness.
