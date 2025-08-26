@@ -12,12 +12,17 @@ In order to upload data to the ESA Project Results Repository (PRR) you have to 
 4. Save the normalised Collection
 5. Send the data, metadata and some extra information to the EarthCODE team.
 
-Below you will find guides to the whole process, we recomend starting with the introductory notebook.
+# Getting Started with PRR Metadata Creation
 
-- [Generating a STAC Collection for the PRR(Introduction)](./PRR_STAC_introduction.ipynb) - A notebook explaining how to create the required PRR metadata. It describes the steps in detail and uses a relatively simple example, with a single .nc raster data file.
-- [Generating STAC collections with zarr files](./prr_zarr.ipynb) - Example how to generate metadata for a product with zarr files.
-- [Generating a STAC Collection for the PRR (Multiple file types)](./example_tccas.ipynb) - Example how to generate metadata for a more complicated dataset which has multiple types of data and different file formats.
-- [Generating a STAC Collection for the PRR(Large dataset for multiple regions)](./Creating%20STAC%20Catalog_from_PRR_example.ipynb) - Example how to generate metadata for a large dataset that has multiple disjoint regions.
+These notebooks are designed for users who are new to the process of publishing data to the ESA Project Results Repository (PRR). They provide step-by-step guidance on how to generate STAC Collections that meet PRR ingestion requirements. 
+Whether you're working with a single raster file or a large, multi-format dataset, notebooks below will assist you in this process. 
 
-If you are interested in exploring/downloading PRR data you can use this notebook as a guide:
-- [ESA Project Results Repository (PRR) Data Access and Collections Preview](./PRR_STAC_download_example.ipynb) - A notebook explaining how Item Catalogs should be created, uses raster data.
+- [Generating a STAC Collection for the PRR (Introduction)](./PRR_STAC_introduction.ipynb) - Detailed explanation on how to create valid metadata to ingest simple raster data file (.nc) into PRR. 
+- [Generating a STAC Collection for the PRR (Multiple file types)](./example_tccas.ipynb) - Example how to generate metadata for a more complex dataset with varied data types and formats.
+- [Generating a STAC Collection for the PRR (Large dataset for multiple regions)](./Creating%20STAC%20Catalog_from_PRR_example.ipynb) - Example focuses on handling large dataset across multiple disjoint regions.
+- [Generating STAC Collection for the PRR (zarr files)](./prr_zarr.ipynb) - A guide for generating a collection from zarr files.
+
+# Accessing and Exploring data products on ESA PRR
+This notebook is generated for users willing to explore the ESA PRR repository, by browsing, previewing and/or downloading data published on the PRR. 
+
+- [ESA Project Results Repository (PRR) Data Access and Collections Preview](./PRR_STAC_download_example.ipynb) - Use this notebook to access, explore, query, and download data from the ESA Project Results Repository (PRR).
