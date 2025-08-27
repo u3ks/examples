@@ -1,9 +1,8 @@
 # Open Science Catalog
 
-The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/) is a key component of the ESA EO Open Science framework. It is a publicly available web-based application designed to provide easy access to scientific resources including geoscience products, workflows, experiments and documentation from activities and projects funded by ESA under the EO Programme. 
+The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/) is a key component of the ESA EO Open Science framework. It is a publicly available web-based application designed to provide easy access to scientific resources including geoscience products, workflows, experiments and documentation from activities and projects funded by ESA under the EO Programme.
 
-
-There are few modalities on how to make a contribution. Choose a way that best fits your familiarity and technical backround to contribute to Open Science Catalog:
+There are three different ways and several tools to contribute to Open Science Catalog:
 
 ### 1: Use a Visual GUI Interface (No coding required) 
 
