@@ -15,3 +15,4 @@ There are three different ways and several tools to contribute to Open Science C
 
 ### 3: Using one of the platform tools (For EarthCODE integrated platforms users)
 - [DeepCode](https://github.com/deepesdl/deep-code) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.
+- [openEO Publishing Tool](https://publish.earthcode.vito.be/) - A platform agnostic tool to publish workflows, experiments and products created on openEO-based platforms. Learn more in our dedicated [publication](../openeo/3_publication.md) guide.

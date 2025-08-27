@@ -1,0 +1,85 @@
+{
+  "process_graph": {
+    "loadcollection1": {
+      "process_id": "load_collection",
+      "arguments": {
+        "id": "SENTINEL2_L2A",
+        "spatial_extent": {
+          "from_parameter": "spatial_extent"
+        },
+        "temporal_extent": [
+          {
+            "from_parameter": "date"
+          },
+          {
+            "from_parameter": "date"
+          }
+        ]
+      }
+    },
+    "maskpolygon1": {
+      "process_id": "mask_polygon",
+      "arguments": {
+        "data": {
+          "from_node": "loadcollection1"
+        },
+        "mask": {
+          "from_parameter": "spatial_extent"
+        }
+      }
+    },
+    "ndvi1": {
+      "process_id": "ndvi",
+      "arguments": {
+        "data": {
+          "from_node": "maskpolygon1"
+        }
+      }
+    },
+    "reducedimension1": {
+      "process_id": "reduce_dimension",
+      "arguments": {
+        "data": {
+          "from_node": "ndvi1"
+        },
+        "dimension": "t",
+        "reducer": {
+          "process_graph": {
+            "runudf1": {
+              "process_id": "run_udf",
+              "arguments": {
+                "data": {
+                  "from_parameter": "data"
+                },
+                "runtime": "Python",
+                "udf": "import xarray\nfrom openeo_udf.api.datacube import DataCube\n\n\ndef apply_datacube(cube: DataCube, context) -> DataCube:\n    import xarray\n    import numpy as np\n\n    # Get the x array containing the time series\n    array: xarray.DataArray = cube.get_array()\n    min = 0.85\n    max = 1.15\n    step = 0.1\n    mean = array.median(skipna=True)\n    bins = np.arange(min, max + step, step) * mean.values.tolist()\n    bins = np.concatenate([[0], bins, [255]])\n    buckets = np.digitize(array.values, bins=bins).astype(float)\n    return DataCube(\n        xarray.DataArray(\n            buckets,\n            coords={\n                \"t\": array.t.values,\n                \"bands\": array.bands.values,\n                \"y\": array.y.values,\n                \"x\": array.x.values,\n            },\n            dims=[\"t\", \"bands\", \"y\", \"x\"],\n        )\n    )\n"
+              },
+              "result": true
+            }
+          }
+        }
+      },
+      "result": true
+    }
+  },
+  "id": "variability_map",
+  "parameters": [
+    {
+      "name": "spatial_extent",
+      "description": "Spatial extent for which to generate the variability map",
+      "schema": {
+        "type": "object",
+        "subtype": "geojson"
+      }
+    },
+    {
+      "name": "date",
+      "description": "Date for which to generate the variability map",
+      "schema": {
+        "type": "string",
+        "subtype": "date",
+        "format": "date"
+      }
+    }
+  ]
+}

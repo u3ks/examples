@@ -32,7 +32,14 @@ project:
         - file: OSC/osc_pr_pystac.ipynb
         - file: OSC/deepcode_example.md
 
-      
+    - title: openEO
+      file: openeo/index.md
+      children:
+        - file: openeo/1_workflow.ipynb
+        - file: openeo/2_experiment.ipynb
+        - file: openeo/3_publication.md
+        - file: openeo/4_reproduce.ipynb
+
   # plugins:
   #   - directives.mjs
   #   - picsum.mjs
