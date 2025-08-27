@@ -8,10 +8,10 @@ date: 2025-02-24
 #      - TBD
 ---
 
-Welcome to the EarthCODE examples book!
+# Welcome to the EarthCODE Examples Book!
 
-Here you will find guides and examples on how to use the various EarthCODE resources.
+Here you will find guides and practical examples on how to use the various EarthCODE resources including publication process, data access and exploitation and working with the platforms! 
 
-If you are looking to upload data to the ESA Project Results (PRR) repository, check out our [PRR Examples](PRR/index.md).
+Looking how to upload data to the ESA Project Results Repository (PRR)? Start with our [PRR Examples](PRR/index.md) to learn how to easily generate STAC Collections direclty from your files and share your datasets.
 
-If you are looking to add information to the Open Science Catalog, check out our [Open Science Catalog Examples](OSC/index.md).
+Looking how to contribute to the Open Science Catalog, Start with our [Open Science Catalog Examples](OSC/index.md) to learn how to add / change content in the metadata catalog, by enriching it with your research outcomes.
