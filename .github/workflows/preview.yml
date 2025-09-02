@@ -20,7 +20,7 @@ concurrency: preview-${{ github.ref }}
 
 env:
   # BASE_URL for MyST build
-  BASE_URL: /pr-preview/pr-${{ github.event.number }}/examples
+  BASE_URL: /pr-preview/pr-${{ github.event.number }}/tutorials
 
 jobs:
   deploy-preview:

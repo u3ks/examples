@@ -25,7 +25,7 @@ concurrency:
 
 env:
   # BASE_URL for MyST build
-  BASE_URL: /examples
+  BASE_URL: /tutorials
 
 jobs:
   deploy:

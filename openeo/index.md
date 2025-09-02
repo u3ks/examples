@@ -6,9 +6,9 @@ From a technical perspective, openEO defines a set of RESTful APIs and [client l
 
 From a user perspective, openEO lowers the barrier to experimentation and collaboration. Users can start with small exploratory analyses in notebooks, gradually expand workflows into more complex experiments, and finally scale them up on powerful cloud infrastructures, all without changing the underlying logic. This portability fosters reproducibility and ensures that workflows developed once can be reused, adapted, or shared easily across projects.
 
-The notebook examples provided in this section illustrate how to use openEO for common scientific tasks: from creating workflow using user defined processes and open source input data, incorporating it into scientific experiment, to publishing experiment with the workflow in EarthCODE. At the end reproducibility of published experiment is also demonstrated.
+The notebook tutorials provided in this section illustrate how to use openEO for common scientific tasks: from creating workflow using user defined processes and open source input data, incorporating it into scientific experiment, to publishing experiment with the workflow in EarthCODE. At the end reproducibility of published experiment is also demonstrated.
 
-## openEO Examples
+## openEO Tutorials
 
   1. [Creating an openEO workflow](1_workflow.ipynb): This guide demonstrates how to create a basic openEO workflow, executing a simple processing task and publishing it as workflow that can be shared and reused.
   2. [Creating an experiment](2_experiment.ipynb): This guide shows how to set up an experiment using the previously created workflow, defining parameters such as area of interest and time range, and executing the workflow to generate output products.

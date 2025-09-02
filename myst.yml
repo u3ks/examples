@@ -1,13 +1,13 @@
 version: 1
 project:
   id: 7459d850-c3ed-4933-a447-54e8d41b1409
-  title: "EarthCODE Examples"
-  subject: "EarthCODE Examples"
+  title: "EarthCODE Tutorials"
+  subject: "EarthCODE Tutorials"
   subtitle: "sub"
   description: "desc"
   # keywords: []
   # authors: []
-  github: https://github.com/ESA-EarthCODE/documentation/tree/main/examples
+  github: https://github.com/ESA-EarthCODE/tutorials
   license:
     code: MIT
     content: CC-BY-4.0
@@ -63,11 +63,11 @@ project:
   #       - /jtex/create-a-beamer-template
   #       - /jtex/contribute-a-template
 site:
-  title: EarthCODE Examples
+  title: EarthCODE Tutorials
   template: book-theme
   options:
     favicon: ./public/img/EarthCODE_Favicon_32x32px.png
-    logo_text: EarthCODE Examples
+    logo_text: EarthCODE Tutorials
     logo: ./public/img/EarthCODE_kv_transparent.png
     style: ./public/esa-style.css
     

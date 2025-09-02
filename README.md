@@ -1,6 +1,6 @@
-# EarthCODE Examples
+# EarthCODE Tutorials
 
-The EarthCODE Examples using MyST.
+The EarthCODE Tutorials using MyST.
 
 ```
 npm install
