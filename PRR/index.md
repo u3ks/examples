@@ -18,7 +18,7 @@ These notebooks are designed for users who are new to the process of publishing 
 Whether you're working with a single raster file or a large, multi-format dataset, notebooks below will assist you in this process. 
 
 - [Generating a STAC Collection for the PRR (Introduction)](./PRR_STAC_introduction.ipynb) - Detailed explanation on how to create valid metadata to ingest simple raster data file (.nc) into PRR. 
-- [Generating a STAC Collection for the PRR (Multiple file types)](./example_tccas.ipynb) - Example how to generate metadata for a more complex dataset with varied data types and formats.
+- [Generating a STAC Collection for the PRR (Multiple file types)](./TCCAS_v2.ipynb) - Example how to generate metadata for a more complex dataset with varied data types and formats.
 - [Generating a STAC Collection for the PRR (Large dataset for multiple regions)](./Creating%20STAC%20Catalog_from_PRR_example.ipynb) - Example focuses on handling large dataset across multiple disjoint regions.
 - [Generating STAC Collection for the PRR (zarr files)](./prr_zarr.ipynb) - A guide for generating a collection from zarr files.
 
