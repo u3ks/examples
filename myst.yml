@@ -20,9 +20,9 @@ project:
       children:
         - file: PRR/PRR_STAC_introduction.ipynb
         - file: PRR/prr_zarr.ipynb
-        - file: PRR/example_tccas.ipynb
         - file: PRR/Creating STAC Catalog_from_PRR_example.ipynb
         - file: PRR/PRR_STAC_download_example.ipynb
+        - file: PRR/TCCAS_v2.ipynb
         - file: PRR/CareHeat_v2.ipynb
 
     - title: Open Science Catalog (OSC)
