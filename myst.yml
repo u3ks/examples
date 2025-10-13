@@ -31,7 +31,7 @@ project:
         - file: OSC/git_clerk_example.md
         - file: OSC/osc_pr_manual.ipynb
         - file: OSC/osc_pr_pystac.ipynb
-        - file: OSC/deepcode_example.md
+        # - file: OSC/deepcode_example.md
 
     - title: openEO
       file: openeo/index.md
@@ -40,6 +40,23 @@ project:
         - file: openeo/2_experiment.ipynb
         - file: openeo/3_publication.md
         - file: openeo/4_reproduce.ipynb
+
+    - title: Pangeo
+    - file: pangeo/index.md
+      children:
+        - file: pangeo/introduction/introduction.md
+        - file: pangeo/earthcode101/earthcode101.md
+          children:
+            - file: pangeo/earthcode101/about_edc_pangeo.md
+            - file: pangeo/earthcode101/stac_and_data_access.ipynb
+        - file: pangeo/pangeo101/pangeo101.md
+          children:
+            - file: pangeo/pangeo101/xarray101.ipynb
+            - file: pangeo/pangeo101/cloud-native-formats-101.ipynb
+            - file: pangeo/pangeo101/dask101.ipynb
+        - file: pangeo/burnt-area-example/pangeo_on_EarthCODE.ipynb
+        - file: pangeo/publishing-to-earthcode/publish-pangeo.ipynb
+    
 
   # plugins:
   #   - directives.mjs
