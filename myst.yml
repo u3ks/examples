@@ -55,7 +55,7 @@ project:
             - file: pangeo/pangeo101/cloud-native-formats-101.ipynb
             - file: pangeo/pangeo101/dask101.ipynb
         - file: pangeo/burnt-area-example/pangeo_on_EarthCODE.ipynb
-        - file: pangeo/publishing-to-earthcode/publish-pangeo.ipynb
+        - file: pangeo/publishing-to-earthcode/publish.md
     
 
   # plugins:
