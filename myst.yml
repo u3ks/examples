@@ -24,6 +24,7 @@ project:
         - file: PRR/TCCAS_v2.ipynb
         - file: PRR/CareHeat_v2.ipynb
         - file: PRR/PRR_STAC_download_example.ipynb
+        - file: PRR/sen4amazonas.ipynb
 
     - title: Open Science Catalog (OSC)
       file: OSC/index.md
