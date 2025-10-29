@@ -19,6 +19,7 @@ project:
       file: PRR/index.md
       children:
         - file: PRR/PRR_STAC_introduction.ipynb
+        - file: PRR/smartch4_signatures_modified.ipynb
         - file: PRR/prr_zarr.ipynb
         - file: PRR/Creating STAC Catalog_from_PRR_example.ipynb
         - file: PRR/TCCAS_v2.ipynb
