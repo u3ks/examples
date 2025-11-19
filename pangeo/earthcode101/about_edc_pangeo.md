@@ -1,6 +1,6 @@
 # EDC Pangeo Cloud Platform
 
-## About the Environment: Introducing the EDC Pangeo Cloud Platform
+## About the Environment
 
 You can now work with the Pangeo stack on the EDC EOxHub!
 

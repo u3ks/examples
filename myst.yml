@@ -44,7 +44,7 @@ project:
         - file: openeo/3_publication.md
         - file: openeo/4_reproduce.ipynb
 
-    - title: Pangeo
+    - title: Pangeo stack on EarthCODE
     - file: pangeo/index.md
       children:
         - file: pangeo/introduction/introduction.md

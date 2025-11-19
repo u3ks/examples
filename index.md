@@ -18,4 +18,4 @@ Looking how to contribute to the Open Science Catalog, Start with our [Open Scie
 
 Looking for how to use the openEO to create workflows and experiments? Check out our [openEO Tutorials](openeo/index.md).
 
-Looking for how to use the Pangeo deployment on EarthCODE? Check out our [Pangeo Tutorials](pangeo/index.md).
+Looking for how to use the [Pangeo Stack](pangeo.io) deployment on EarthCODE? Check out our [Pangeo Tutorials](pangeo/index.md).
